@@ -18,12 +18,21 @@ namespace PersonalProfessional.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Bio()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Index()
+        {
+            return View();
+        }
+        public IActionResult Projects()
+        {
+            return View();
+        }
+
+        public IActionResult Skills()
         {
             return View();
         }

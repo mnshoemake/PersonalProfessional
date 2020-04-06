@@ -2,14 +2,62 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: left;
+    word-break: break-all;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: .5rem;
 }
 
+
+navbar {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    padding-bottom: .5rem;
+    font-style: oblique;
+}
+
+.navbar {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left !important;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+        background-color: #990101;
+        color: white;
+}
+
+.navbar .container{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+#soc_media_icons {
+    justify-content: right;
+}
+
+.navbar-expand-sm {
+    justify-content: space-between;
+}
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #0366d6;
+    text-align: left;
 }
 
 .btn-primary {
@@ -59,8 +107,9 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .footer {
   position: absolute;
@@ -68,4 +117,16 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+header {
+    /*font-family: nunito, helvetica, sans-serif;*/
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: solid 1px #990101;
+}
+
+hr {
+    margin-top: 2px;
+    margin-bottom: 30px;
+    border-bottom: solid 2px #990101;
 }
