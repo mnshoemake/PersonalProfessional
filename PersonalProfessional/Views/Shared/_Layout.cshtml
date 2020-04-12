@@ -7,13 +7,14 @@
     @*<title>@ViewData["Title"] - PersonalProfessional</title>*@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="shortcut icon" href="~/images/icons/mns_small2.png" />
+    <link rel="shortcut icon" href="~/images/icons/header/mns_small2.png" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom mb-auto">
+        @**@
+        <nav class="navbar navbar-expand-sm navbar-toggleable-lg border-bottom mb-auto">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Michael Nhu Shoemake</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Home">Michael Nhu Shoemake</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -21,10 +22,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Skills">Skills</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Work">Work</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Projects">Projects</a>
@@ -39,17 +37,17 @@
                 <ul class="nav navbar-nav navbar-right navbar-expand-sm">
                     <li class="nav-item">
                         <a href="https://www.linkedin.com/in/michael-nhu-shoemake-0b3a8679/">
-                            <img src="~/images/icons/header/linked_icon_gray.png" height="20" width="20" alt="LinkedIn Profile" />
+                            <img src="~/images/icons/header/linkedin_icon_white.png" height="30" width="30" alt="LinkedIn Profile" />
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="https://www.github.com/mnshoemake/">
-                            <img src="~/images/icons/header/github_icon_gray.svg" height="20" width="20" alt="GitHub Profile" />
+                            <img src="~/images/icons/header/github_icon_white2.png" height="30" width="30" alt="GitHub Profile" />
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="https://twitter.com/mnshoemake">
-                            <img src="~/images/icons/header/twitter_icon_gray.png" alt="Twitter Profile" height="20" width="20" />
+                            <img src="~/images/icons/header/twitter_icon_white.png" alt="Twitter Profile" height="30" width="30" />
                         </a>
                     </li>
                 </ul>
@@ -57,14 +55,21 @@
         </nav>
     </header>
     <hr class="header_rule">
+    <div class ="flex-fill" id="siteDescription">
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+    </div>
+
+    <div class="footer text-center">
+        <p>©MICHAEL NHU SHOEMAKE, 2020</p>
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
 </body>
+
 </html>

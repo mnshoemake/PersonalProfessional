@@ -9,7 +9,6 @@ C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\bin\Debug\n
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\bin\Debug\netcoreapp3.0\PersonalProfessional.pdb
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\bin\Debug\netcoreapp3.0\PersonalProfessional.Views.dll
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\bin\Debug\netcoreapp3.0\PersonalProfessional.Views.pdb
-C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\PersonalProfessional.csprojAssemblyReference.cache
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\staticwebassets\PersonalProfessional.StaticWebAssets.Manifest.cache
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\staticwebassets\PersonalProfessional.StaticWebAssets.xml
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\PersonalProfessional.RazorAssemblyInfo.cache
@@ -19,7 +18,6 @@ C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\n
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\PersonalProfessional.TagHelpers.input.cache
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\PersonalProfessional.TagHelpers.output.cache
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\PersonalProfessional.RazorCoreGenerate.cache
-C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -124,5 +122,7 @@ C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\bin\Debug\n
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\PersonalProfessional.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\Razor\Views\Home\Skills.cshtml.g.cs
 C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\Razor\Views\Home\Projects.cshtml.g.cs
+C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\PersonalProfessional.csprojAssemblyReference.cache
+C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\Razor\Views\Home\Home.cshtml.g.cs
+C:\Users\Mike\source\repos\PersonalProfessional\PersonalProfessional\obj\Debug\netcoreapp3.0\Razor\Views\Home\Work.cshtml.g.cs

@@ -23,7 +23,7 @@ namespace PersonalProfessional.Controllers
             return View();
         }
 
-        public IActionResult Index()
+        public IActionResult Home()
         {
             return View();
         }
@@ -32,7 +32,7 @@ namespace PersonalProfessional.Controllers
             return View();
         }
 
-        public IActionResult Skills()
+        public IActionResult Work()
         {
             return View();
         }
