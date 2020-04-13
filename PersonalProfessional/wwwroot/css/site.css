@@ -128,9 +128,14 @@ a {
     text-align: left;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 h2 {
-    font-size: 46px;
-    text-decoration: underline;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
 }
 
 .btn-primary {
@@ -141,39 +146,52 @@ h2 {
 
 .s-item-logo {
     vertical-align: top;
-    padding-right: 5px;
+    /*padding-right: 5px;*/
 }
 
 .s-item-title {
     text-decoration: underline;
     font-size: 20px;
+    padding-left: 10px;
+    vertical-align: top;
 }
 
 .s-item-subtitle {
     font-size: 18px;
     color: #990101;
     font-weight: bold;
+    padding-left: 10px;
+    vertical-align: top;
 }
 
 .s-item-text {
     font-size: 16px;
     color: #1e1e1e;
+    padding-left: 10px;
+    vertical-align: top;
+    width: 800px;
 }
 
+.txt-notes-light {
+    font-style: italic;
+    color: gray;
+    vertical-align: top;
+}
+
+.rw-skill-icons {
+    justify-content: space-between;
+}
 /*-------------------------------MISC STYLES-------------------------------*/
 html {
     font-size: 14px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     html {
         font-size: 16px;
     }
 }
 
-.border-top {
-    border-top: 1px solid #e5e5e5;
-}
 
 .border-bottom {
     border-bottom: 1px solid #e5e5e5;
