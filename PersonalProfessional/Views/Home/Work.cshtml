@@ -1,25 +1,52 @@
 ﻿
 @{
-    ViewData["Title"] = "Career";
+    ViewData["Title"] = "WORK";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Work</h1>
-<hr />
-<h2>Career</h2>
-<h3>FRAXION</h3>
-<p>Software Implementation Consultant</p>
-<h3>NINTENDO TECHNOLOGY DEVELOPMENT</h3>
-<p>Wireless Communications Tester</p>
-<p>Localization Writer/Editor</p>
-<hr class="hr2" />
+@*<div align="center">
+    <p>
+        <img src="~/images/main/hatman_crop.jpg" width="403" height="327" />
+    </p>
+</div>*@
+
+@*<h2>CAREER</h2>*@
+<table id="tblCAREER">
+    <tr>
+        <td rowspan="3" class="s-item-logo"><img src="~/images/work/fraxion-procurement-software-logo-color.svg" height="50" width="150" /></td>
+        <td class="s-item-title">Fraxion</td>
+    </tr>
+    <tr><td class="s-item-subtitle">Software Implementation Consultant</td></tr>
+    <tr class="s-item-text"><td>Coordinated with client teams to perform implementation of Fraxion e (fka eRequester) Procurement system.</td></tr>
+    <br />
+    <tr>
+        <td rowspan="3" class="s-item-logo"><img src="~/images/work/Nintendo-logo-cropped.png" height="50" width="175" /></td>
+        <td class="s-item-title">Nintendo of America</td>
+    </tr>
+    <tr><td class="s-item-subtitle">Localization Writer/Editor</td> <td>12 months</td></tr>
+    <tr class="s-item-text"><td>Wrote and edited in-game text based on raw Japanese-to-English translation. Text assets included dialogue, description, and item names.</td></tr>
+</table>
+
+@*<div class="flex-sm-column">
+    <h3 class="s-item-title">FRAXION</h3>
+    <p class="s-item-subtitle">Software Implementation Consultant</p>
+    <p class="s-item-text">Description of duties.</p>
+    <br />
+    <h3>NINTENDO TECHNOLOGY DEVELOPMENT</h3>
+    <p>Wireless Communications Tester</p>
+    <p>Localization Writer/Editor</p>
+</div>
+<br />*@
+<div class="flex-fill softrule"></div>
 <h2>Education</h2>
-<hr class="hr2" />
+<div class="flex-fill softrule"></div>
 <h2>Skills</h2>
-<p>Consider categories: <br />
+<p>
+    Consider categories: <br />
     1. Expertise <br />
     2. Comfortable with / daily use <br />
-    3. Some experience</p>
+    3. Some experience
+</p>
 <div>
     <img src="~/images/icons/skills/csharp-icon.png" height="50" width="50" />
     <img src="~/images/icons/skills/sql_icon_1.png" height="50" width="50" />

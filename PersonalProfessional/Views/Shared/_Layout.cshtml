@@ -11,7 +11,6 @@
 </head>
 <body>
     <header>
-        @**@
         <nav class="navbar navbar-expand-sm navbar-toggleable-lg border-bottom mb-auto">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Home">Michael Nhu Shoemake</a>
@@ -55,7 +54,8 @@
         </nav>
     </header>
     <hr class="header_rule">
-    <div class ="flex-fill" id="siteDescription">
+    <h1 align="center">@ViewData["Title"] @ViewData["altTitle"]</h1>
+    <div class ="flex-fill softrule" id="siteDescription">
     </div>
     <div class="container">
         <main role="main" class="pb-3">
@@ -64,7 +64,7 @@
     </div>
 
     <div class="footer text-center">
-        <p>©MICHAEL NHU SHOEMAKE, 2020</p>
+        <p>BY ©MICHAEL NHU SHOEMAKE, 2020</p>
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
