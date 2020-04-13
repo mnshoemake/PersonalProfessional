@@ -181,6 +181,31 @@ h2 {
 .rw-skill-icons {
     justify-content: space-between;
 }
+
+.carousel {
+    width: 500px;
+    height: 350px;
+}
+
+.carousel-control-prev-icon {
+    color: #990101;
+    background-color:#990101 ;
+}
+
+.carousel-control-next-icon {
+    color: #990101;
+    background-color: #990101;
+}
+
+.carousel-indicators {
+    color: #808080;
+    background-color: #808080;
+}
+
+.carousel-indicators:active {
+    color: #990101;
+    background-color: #990101
+}
 /*-------------------------------MISC STYLES-------------------------------*/
 html {
     font-size: 14px;
