@@ -138,6 +138,11 @@ h2 {
     text-transform: uppercase;
 }
 
+.hCentered {
+    text-align: center;
+
+}
+
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;
@@ -178,7 +183,7 @@ h2 {
     vertical-align: top;
 }
 
-.rw-skill-icons {
+.row-icons {
     justify-content: space-between;
 }
 
@@ -237,8 +242,23 @@ h2 {
 }
 
 .img-thumbnail {
-    width: 100px;
-    height: 100px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.img-thumbnail:hover {
+    border: 2px solid #990101
+}
+
+.icon-thumbnail {
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-thumbnail:hover {
+   border: 2px solid #990101;
 }
 /*#writingCarouselContainer {
     float: left;
