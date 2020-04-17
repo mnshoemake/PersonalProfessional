@@ -122,6 +122,23 @@ hr {
     border-bottom: 1px solid #a4a4a4;
 }
 
+.mini-softrule {
+    font-size: 1.2em;
+    margin: 10px auto 30px;
+    width: 50px;
+    padding: 0px 0 10px;
+    color: #999;
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    border-bottom: 1px solid #a4a4a4;
+}
+
+
 /*-------------------------------CONTENT STYLES-------------------------------*/
 a {
     color: white;
@@ -177,6 +194,14 @@ h2 {
     width: 800px;
 }
 
+.s-carousel-side-text {
+    font-size: 16px;
+    color: #1e1e1e;
+    padding-left: 10px;
+    vertical-align: top;
+    width: 500px;
+}
+
 .txt-notes-light {
     font-style: italic;
     color: gray;
@@ -197,8 +222,8 @@ h2 {
 }
 
 .carousel:hover .carousel-control-prev {
-        background-color: rgba(30, 30, 30, 0.88);
-    }
+    background-color: rgba(30, 30, 30, 0.88);
+}
 
 .carousel-control-next-icon {
     color: #990101;
@@ -214,7 +239,7 @@ h2 {
     bottom: -50px;
 }
 
-    .carousel-indicators li {
+.carousel-indicators li {
         color: #990101;
         width: 10px;
         height: 10px;
@@ -222,7 +247,7 @@ h2 {
         background-color: black;
         display: inline-block;
         float: none;
-    }
+}
 
 .carousel-indicators:active {
     color: #990101;
@@ -235,6 +260,10 @@ h2 {
 .flex-child {
     flex: 1;
     margin-right: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
 }
 
 .img-container {
