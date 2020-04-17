@@ -184,28 +184,77 @@ h2 {
 
 .carousel {
     width: 500px;
-    height: 350px;
+    height: 250px;
+}
+
+.carousel:hover .carousel-control-next {
+    background-color: rgba(30, 30, 30, 0.88);
+}
+
+.carousel:hover .carousel-control-prev {
+        background-color: rgba(30, 30, 30, 0.88);
+    }
+
+.carousel-control-next-icon {
+    color: #990101;
 }
 
 .carousel-control-prev-icon {
     color: #990101;
-    background-color:#990101 ;
-}
-
-.carousel-control-next-icon {
-    color: #990101;
-    background-color: #990101;
 }
 
 .carousel-indicators {
-    color: #808080;
-    background-color: #808080;
+    color: #990101;
+    /*background-color: #808080;*/
+    bottom: -50px;
 }
+
+    .carousel-indicators li {
+        color: #990101;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: black;
+        display: inline-block;
+        float: none;
+    }
 
 .carousel-indicators:active {
     color: #990101;
-    background-color: #990101
 }
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.img-container {
+    justify-content: space-between;
+}
+
+.img-thumbnail {
+    width: 100px;
+    height: 100px;
+}
+/*#writingCarouselContainer {
+    float: left;
+}
+
+#writingCarouselText {
+    float: right;
+}
+
+#softwareCarouselContainer {
+    float: left;
+}
+
+#softwaregCarouselText {
+    float: right;
+}*/
 /*-------------------------------MISC STYLES-------------------------------*/
 html {
     font-size: 14px;

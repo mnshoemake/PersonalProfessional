@@ -27,12 +27,12 @@ namespace PersonalProfessional.Controllers
         {
             return View();
         }
-        public IActionResult Projects()
+        public IActionResult Work()
         {
             return View();
         }
 
-        public IActionResult Work()
+        public IActionResult Resume()
         {
             return View();
         }

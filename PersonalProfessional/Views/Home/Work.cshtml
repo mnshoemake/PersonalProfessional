@@ -1,139 +1,121 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "WORK";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div align="center">
-    <p>
-        <img src="~/images/main/hatman_crop.jpg" width="200" height="160" />
-    </p>
-</div>
+<script type="text/javascript">
+    $(document).ready(function () {
 
-<h2>Skills</h2>
-<div class="container">
-    <div class="row rw-skill-icons">
-        <img src="~/images/icons/skills/csharp-icon.png" height="50" width="50" />
-        <img src="~/images/icons/skills/sql_icon_1.png" height="50" width="50" />
-        <img src="~/images/icons/skills/javascript_icon_1.svg" height="50" width="50" />
-        <img src="~/images/icons/skills/jquery_icon_1.svg" height="50" width="50" />
-        <img src="~/images/icons/skills/html5_icon_1.svg" height="50" width="50" />
-        <img src="~/images/icons/skills/css3_icon_1.svg" height="50" width="50" />
-        <img src="~/images/icons/skills/bootstrap_icon1.svg" height="50" width="50" />
-        <img src="~/images/icons/skills/git_icon_1.svg" height="50" width="50" />
-        <img src="~/images/icons/skills/github-8-xxl.png" height="50" width="50" />
-        <img src="~/images/icons/skills/vault-logo-cropped.png" height="50" width="50" />
+        $('#carouselWritingIndicators').on('slid.bs.carousel', function () {
+            if ($(this).find('.active').index() = 0) {
+                $('#pWritingCarouselItemTitle').text('testone')
+            }
+            if ($(this).find('.active').index() = 1) {
+                 $('#pWritingCarouselItemTitle').text('testtwo')
+            }
+
+             $('#pWritingCarouselItemDescription').text($('.active > .carousel-caption').html());
+        });
+    //    $("#carouselWritingIndicators").on('afterChange', function (event, slick, currentSlide, nextSlide) {
+    //        $('#pWritingCarouselItemTitle').text('Question ' + ++currentSlide);
+    //        $('pWritingCarouselItemDescription').text('Description' + ++currentSlide);
+    //        alert("THE SLIDE HAS CHANGED " + myTextField.value);
+    //        //function changeWritingCarouselText() {
+    //        //        var pWritingCarouselTitle = document.getElementById('pWritingCarouselItemTitle');
+    //        //        var pWritingCarouselDescription = document.getElementById(pWritingCarouselItemDescription);
+
+    //    }
+    //});
+    </script>
+<div align="center"
+    <p>
+        <img class="aligncenter" src="~/images/main/cherryblossoms.jpg" height="461" width="576"/>
+    </p>
+    </div>
+
+<h2>Software</h2>
+<br />
+<div class="flex-container">
+    <div id="softwareCarouselContainer" class="flex-child">
+        <div id="carouselSoftwareIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselSoftwareIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselSoftwareIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://fraxion.biz">
+                        <img class="d-block w-100" src="~/images/projects/eRequester_MyReqs2_resize.png" alt="eRequester">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://thedwellingofirkalla.wordpress.com">
+                        <img class="d-block w-100" src="~/images/projects/dwelling_irkalla_resize.png" alt="The Dwelling of Irkalla">
+                    </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselSoftwareIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselSoftwareIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="softwareCarouselText" class="flex-child">
+        <p id="pSoftwareCarouselItemTitle" class="s-item-subtitle">eRequester / Fraxion e</p>
+        <p id="pSoftwareCarouselItemDescription" class="s-item-text">A Req-to-PO purchasing software solution which integrates with enterprise-level ERP systems, including Microsoft Dynamics Great Plains, Sage 100, Sage 300, Sage 500, QuckBooks, and more.</p>
     </div>
 </div>
 
-<div class="flex-fill softrule"></div>
+<div class="flex-fill softrule"> </div>
+<h2>Writing</h2>
+<div class="flex-container">
+    <div id="writingCarouselContainer" class="flex-child">
+        <div id="carouselWritingIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselWritingIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselWritingIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://ekantavasi.wordpress.com">
+                        <img class="d-block w-100" src="~/images/projects/missives_resize.png" alt="Missives From a Room">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://thedwellingofirkalla.wordpress.com">
+                        <img class="d-block w-100" src="~/images/projects/dwelling_irkalla_resize.png" alt="The Dwelling of Irkalla">
+                        <div class="carousel-caption-title">THE DWELLING OF IRKALLA</div>
+                        <div class="carousel-caption-description">An ongoing anthology of passages about death. Notable authors include Hannah Arendt, Julian Barnes, Vladimir Nabokov, and Aeschylus.</div>
+                    </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselWritingIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselWritingIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="writingCarouselText" class="flex-child">
+        <p id="pWritingCarouselItemTitle" class="s-item-subtitle">MISSIVES FROM A ROOM</p>
+        <p id="pWritingCarouselItemDescription" class="s-item-text">A literary blog, containing pieces of original writing and excerpts from works I admire.</p>
+    </div>
+</div>
+<div class="flex-fill softrule"> </div>
 
-<h2>Employment History</h2>
-<table id="tblEmploymentHistory">
-    <tr>
-        <td rowspan="3" class="s-item-logo"><img src="~/images/work/logo_fraxion_color.svg" height="50" width="175" /></td>
-        <td class="s-item-title">FRAXION, LLC</td>
-        <td class="txt-notes-light">Current Employer. <br />2 years, 8 months</td>
-    </tr>
-    <tr><td class="s-item-subtitle">Software Implementation Consultant</td></tr>
-    <tr>
-        <td class="s-item-text">
-            Oversees the deployment and configuration of on-premises and cloud-based requisitioning, purchasing, and receiving web applications.
-            Identifies the needs of clients across a wide variety of industries & crafts solutions to meet them.Provides clients with a range of
-            Implementation and Support services, including:
-            <ul>
-                <li>
-                    Consulting to define scope of work for custom solutions to individual needs,
-                    and providing technical estimates for this scope.
-                </li>
-                <li>Consulting to determine optimal configuration and workflow procedures to meet business requirements of the client.</li>
-                <li>End user/administrator training on configuration, administration, and general use of the product.</li>
-                <li>Writing and checking in code fixes to address software issues (C# / ASP.NET, TSQL, Javascript, CSS)</li>
-                <li>Creating client deliverables in the form of custom SSRS reports on both product database and ERP/Accounting Software databases in integrated installations.</li>
-                <li>Installing and patching solution on client servers.</li>
-                <li>Troubleshooting of software issues (bug identification and reproduction).</li>
-                <li>Data remediation (T-SQL).</li>
-                <li>Coordination of team services to address client issues.</li>
-            </ul>
-            Other duties include:
-            <ul>
-                <li>Creation of SSRS reports to optimize Implementation Team performance.</li>
-                <li>Drafting of documentation concerning product functionality and internal processes.</li>
-                <li>Drafting and submission of bug tickets and feature suggestions.</li>
-                Skills:
-                -Resolution of web application bug tickets via C#, SQL, and Javascript code fixes.
-                -Creation of intermediate-level SQL queries using T-SQL
-                -Basic database creation / maintenance tasks using SSMS
-                -Troubleshooting of web application issues using SQL Profiler
-                -Maintenance of SQL reports & subscriptions using SSRS
-                -Creation of reports using SSMS and Report Builder
-                -Installation of web application using IIS and SSMS
-            </ul>
-        </td>
-
-    </tr>
-    <br />
-    <br />
-    <tr>
-        <td rowspan="3" class="s-item-logo"><img src="~/images/work/logo_nintendo_red.jpg" height="50" width="175" /></td>
-        <td class="s-item-title">NINTENDO OF AMERICA</td>
-        <td class="txt-notes-light">12 months</td>
-    </tr>
-    <tr><td class="s-item-subtitle">Localization Writer/Editor</td> </tr>
-    <tr class="s-item-text">
-        <td>
-            <ul>
-                <li>Wrote and edited in-game text based on raw Japanese-to-English translation.</li>
-                <li>Text assets included dialogue, description, and item names.</li>
-                <li>
-                    Worked with a diverse team of writers and coordinated with translation, legal, and marketing
-                    <br />teams to create a unified player experience and convey the original intent of the game's
-                    <br />designers to a domestic audience.
-                </li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="3" class="s-item-logo"><img src="~/images/work/logo_nintendo_red.jpg" height="50" width="175" /></td>
-        <td class="s-item-title">NINTENDO TECHNOLOGY DEVELOPMENT</td>
-        <td class="txt-notes-light">5 years</td>
-    </tr>
-    <tr><td class="s-item-subtitle">Tester - Wireless Communications</td> </tr>
-    <tr class="s-item-text">
-        <td>
-            <ul>
-                <li>
-                    Performed compatibility and performance testing on wireless communications technologies,
-                    <br />especially 802.11b, g, n, a, ac, and Bluetooth, using Wildpackets OmniPeek, Chanalyzer, iperf,
-                    <br />AirHORN, and other software tools.
-                </li>
-                <li>
-                    Drafted reports, test plans, and presentations for internal and overseas engineering teams
-                    <br />using Miscrosoft Word, Excel, Visio, and Powerpoint.
-                </li>
-                <li>Developed internal tools to parse data using bash shell scripts.</li>
-            </ul>
-        </td>
-    </tr>
-</table>
-
-<div class="flex-fill softrule"></div>
-<h2>Education</h2>
-
-<table id="tblEducationHistory">
-    <tr>
-        <td rowspan="4" class="s-item-logo"><img src="~/images/work/uw-pce-logo.png" height="50" width="50" /></td>
-        <td class="s-item-title">UW Professional &amp; Continuing Education</td>
-    </tr>
-    <tr><td class="s-item-subtitle">PCE Certificate</td></tr>
-    <tr><td class="txt-notes-light"></td>C# Programming</tr>
-    <tr><td>2019</td></tr>
-    <br />
-    <br />
-    <tr>
-        <td rowspan="4" class="s-item-logo"><img src="~/images/work/logo_uw.png" height="50" width="50" /></td>
-        <td class="s-item-title">University of Washington</td>
-    </tr>
-    <tr><td class="s-item-subtitle">Bachelor of Arts</td></tr>
-    <tr><td class="txt-notes-light">English Literature &amp; theory</td> </tr>
-    <tr class="s-item-text"><td>2009-2012</td></tr>
-</table>
+<h2>Localization</h2>
+<div class="img-container">
+    <img class="img-thumbnail" src="~/images/projects/Fire-Emblem-Fates-Birthright.jpg" />
+    <img class="img-thumbnail" src="~/images/projects/Fire-Emblem-Fates-Conquest.jpg" />
+    <img class="img-thumbnail" src="~/images/projects/Fire-Emblem-Fates-Revelation.jpg" />
+    <img class="img-thumbnail" src="~/images/projects/stylesavvy_trendsetters.jpg" />
+    <img class="img-thumbnail" src="~/images/projects/littlecharo_english.jpg" />
+</div>
