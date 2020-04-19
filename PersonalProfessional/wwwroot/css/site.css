@@ -138,7 +138,53 @@ hr {
     border-bottom: 1px solid #a4a4a4;
 }
 
+.wellcontainer {
+    border: solid 1px black;
+    box-shadow: 3px 3px 3px #888888;
+    justify-content: space-around;
+    padding: 10px;
+}
 
+.well {
+    justify-content: space-around;
+}
+
+.slideshow {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.slideshow-image-container {
+    height: 175px;
+
+}
+
+.banner-carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 600px;
+}
+
+.banner-img-container {
+    width: 300px !important;
+    height: auto
+}
+
+.banner-img-container {
+    margin: 0 30px
+}
+
+.banner-img {
+    height: 75px;
+}
+
+.bbs-page-center {
+    float: none !important;
+    max-width: 1145px !important;
+    margin: 0 auto !important;
+}
 /*-------------------------------CONTENT STYLES-------------------------------*/
 a {
     color: white;
@@ -275,6 +321,17 @@ h2 {
     width: 150px;
     height: 150px;
 }
+
+.img-book-thumbnail {
+    border-radius: 10px;
+    width: 100px;
+    height: 150px;
+}
+
+.img-book-thumbnail:hover {
+    border: 2px solid #990101
+}
+
 
 .img-thumbnail:hover {
     border: 2px solid #990101
