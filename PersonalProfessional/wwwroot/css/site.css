@@ -40,6 +40,7 @@ a.navbar-brand {
     font-weight: bold;
     font-size: 30px;
     padding-bottom: .5rem;
+    white-space: nowrap;
 }
 
 .navbar .container {
@@ -86,6 +87,10 @@ a.navbar-brand {
 .nav-item {
     padding-left: 2px;
     padding-right: 2px;
+}
+
+.navbar-dark .nav-item .nav-link {
+    color: white !important;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
