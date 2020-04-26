@@ -317,6 +317,18 @@ h2 {
     border-radius: 50%;
 }
 
+.img-responsive {
+    max-width: 100%;
+}
+
+.img-row {
+    text-align: center;
+}
+
+.main-img-wrapper {
+    display: inline-block;
+}
+
 .img-container {
     justify-content: space-between;
 }
